@@ -1,0 +1,7 @@
+<%= form_with url: pages_search_path, method: :get do |form| %>
+  <%= form.label :longitude, "Longitude:" %>
+  <%= form.text_field :longitude %>
+  <%= form.label :latitude, "Latitude:" %>
+  <%= form.text_field :latitude %>
+  <%= form.submit "Search" %>
+<% end %>
